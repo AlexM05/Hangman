@@ -30,7 +30,8 @@ while not done:
         if letter.lower() not in guesses:
             done = False
 
-if done:
+if done == True:
     print(f"Game Over! The word was {word}!")
-    
+elif done == False:
+    print(f"Good Job! You found the word!")
 input('Press Any Key to Break: ')
