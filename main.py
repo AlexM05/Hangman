@@ -25,7 +25,7 @@ while not done:
         if allowed_errors == 0:
             break
 
-    done = True
+    done = False
     for letter in word:
         if letter.lower() not in guesses:
             done = False
