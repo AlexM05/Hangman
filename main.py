@@ -5,7 +5,7 @@ with open('wordlist.txt', 'r') as f:
 
 word = random.choice(words)[:-1]
 
-allowed_errors = 26
+allowed_errors = 8
 guesses = []
 done = False
 
