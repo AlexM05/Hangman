@@ -31,8 +31,6 @@ while not done:
             done = False
 
 if done:
-    print(f"You found the word! It was {word}!")
-else:
     print(f"Game Over! The word was {word}!")
     
 input('Press Any Key to Break: ')
